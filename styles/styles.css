@@ -49,7 +49,7 @@ a:hover {
 	float: right;
 }
 
-.main h1 {
+.main h1, h3 {
 	font-size: 30px;
 	text-align: center;
 }
