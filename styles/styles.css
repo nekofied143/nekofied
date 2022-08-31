@@ -98,15 +98,3 @@ a:hover {
 * {
 	box-sizing: border-box;
 }
-
-@media screen and (max-width: 400px) {
-    .navbar {
-        float: none;
-        width: 100%;
-    }
-
-    .navbar img	{
-    	display: flex;
-    	flex-wrap: wrap;
-    }
-}
