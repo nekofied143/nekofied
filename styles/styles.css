@@ -1,0 +1,112 @@
+body {
+	text-align: justify;
+}
+
+img {
+	max-width: 100%;
+}
+
+span {
+	font-weight: bold;
+	font-style: oblique;
+	color: darkblue;
+}
+
+a:hover {
+	background-color: gray;
+	border-radius: 5px;
+}
+
+.navbar {
+	display: block;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+.navbar a {
+	font-size: 20px;
+	text-decoration: none;
+	padding: 14px 20px;
+	display: block;
+	float: left;
+	text-align: center;
+}
+
+.navbar a:hover {
+	color: white;
+	background-color: gray;
+}
+
+.navbar a.active {
+	color: black;
+	background-color: gray;
+	border-radius: 5px;
+}
+
+.right {
+	float: right;
+}
+
+.main h1 {
+	font-size: 30px;
+	text-align: center;
+}
+
+.main a {
+	text-decoration: none;
+	color: black;
+}
+
+.content p {
+	font-size: 20px;
+	flex-wrap: wrap;
+	text-align: center;
+}
+
+.content a {
+	text-decoration: none;
+	color: black;
+}
+
+.content li {
+	font-size: 20px;
+	flex-wrap: wrap;
+	margin: 10px;
+	margin-left: 50px;
+}
+
+.community {
+	list-style: square;
+	flex-wrap: wrap;
+} 
+
+.footer {
+	text-align: center;
+	overflow: hidden;
+}
+
+.footer-community {
+	position: fixed;
+	text-align: center;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+@media screen and (max-width: 400px) {
+    .navbar {
+        float: none;
+        width: 100%;
+    }
+
+    .navbar img	{
+    	display: flex;
+    	flex-wrap: wrap;
+    }
+}
