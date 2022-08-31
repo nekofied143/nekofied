@@ -50,7 +50,6 @@ a:hover {
 }
 
 .main h1 {
-	font-size: 30px;
 	text-align: center;
 }
 
@@ -65,7 +64,7 @@ a:hover {
 	text-align: center;
 }
 
-.content h3 {
+.content h2 {
 	text-align: center;
 }
 
