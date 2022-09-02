@@ -1,5 +1,6 @@
 body {
 	text-align: justify;
+	font-family: sans-serif;
 }
 
 img {
@@ -12,17 +13,22 @@ span {
 	color: darkblue;
 }
 
+a {
+	text-decoration: none;
+	color: black;
+}
+
 a:hover {
-	background-color: gray;
-	border-radius: 5px;
+	color: hotpink;
+}
+
+a:active {
+	color: gray;
 }
 
 .navbar {
 	display: block;
 	overflow: hidden;
-	top: 0;
-	left: 0;
-	right: 0;
 }
 
 .navbar a {
@@ -42,20 +48,20 @@ a:hover {
 .navbar a.active {
 	color: black;
 	background-color: gray;
-	border-radius: 5px;
 }
 
 .right {
 	float: right;
 }
 
-.main h1 {
-	text-align: center;
+.right img {
+	display: block;
+	width: auto;
+	height: 20px;
 }
 
-.main a {
-	text-decoration: none;
-	color: black;
+.main h1 {
+	text-align: center;
 }
 
 .content p {
@@ -66,11 +72,6 @@ a:hover {
 
 .content h2 {
 	text-align: center;
-}
-
-.content a {
-	text-decoration: none;
-	color: black;
 }
 
 .content li {
