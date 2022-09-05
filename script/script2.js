@@ -42,4 +42,4 @@ function update()
     setCookie("timePlayed", song.currentTime);
     }
 }
-setInterval(update,1000);
+setInterval(update,100);
