@@ -10,7 +10,6 @@ img {
 span {
 	font-weight: bold;
 	font-style: oblique;
-	color: darkblue;
 }
 
 a {
@@ -40,6 +39,7 @@ a:hover {
 }
 
 .navbar a.icon {
+	background: floralwhite;
 	display: block;
 	position: absolute;
 	right: 0;
@@ -47,12 +47,13 @@ a:hover {
 }
 
 .navbar a:hover {
-	color: white;
-	background-color: gray;
+	color: hotpink;
+	background: floralwhite;
 }
 
 .navbar a.active {
 	color: black;
+	background: floralwhite;
 }
 
 .footer-channels {
