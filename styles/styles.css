@@ -12,6 +12,10 @@ span {
 	font-style: oblique;
 }
 
+audio {
+	display: none;
+}
+
 a {
 	text-decoration: none;
 	color: black;
