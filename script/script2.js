@@ -21,9 +21,9 @@ function getCookie(c_name)
       }
 }
 
-var song = document.getElementsById('audio')[0];
+var song = document.getElementsById("audio")[0];
 var played = false;
-var tillPlayed = getCookie('timePlayed');
+var tillPlayed = getCookie("timePlayed");
 function update()
 {
     if(!played){
@@ -39,7 +39,7 @@ function update()
     }
 
     else {
-    setCookie('timePlayed', song.currentTime);
+    setCookie("timePlayed", song.currentTime);
     }
 }
 setInterval(update,1000);
