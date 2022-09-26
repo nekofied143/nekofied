@@ -25,10 +25,6 @@ a:hover {
 	color: hotpink;
 }
 
-hr {
-	margin: 1rem;
-}
-
 #links {
 	display: none;
 }
@@ -77,17 +73,19 @@ hr {
 
 .main h1 {
 	text-align: center;
-	margin-top: 20px;
+	padding: 10px;
 }
 
 .content p {
 	font-size: 20px;
 	flex-wrap: wrap;
 	text-align: center;
+	padding: 10px;
 }
 
 .content h2 {
 	text-align: center;
+	padding: 10px;
 }
 
 .content li {
@@ -100,6 +98,7 @@ hr {
 .community {
 	list-style: square;
 	flex-wrap: wrap;
+	padding: 10px;
 } 
 
 .footer {
