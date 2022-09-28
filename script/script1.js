@@ -1,8 +1,8 @@
 function myFunction() {
-	var x = document.getElementById("links");
-	if (x.style.display === "block") {
-		x.style.display = "none";
+	var x = document.getElementById("myNavbar");
+	if (x.className === "navbar") {
+		x.className += " responsive";
 	} else {
-		x.style.display = "block";
+		x.className = "navbar";
 	}
 }

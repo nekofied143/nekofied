@@ -1,4 +1,4 @@
-/*function setCookie(c_name,value,exdays)
+function setCookie(c_name,value,exdays)
 {
     var exdate=new Date();
     exdate.setDate(exdate.getDate() + exdays);
