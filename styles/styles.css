@@ -58,17 +58,17 @@ a:hover {
 .navbar a.active {
 	color: black;
 	background: #ddd;
+	cursor: default;
 }
 
 .footer-channels {
 	text-align: center;
 }
 
-.footer-channels img {
+.footer-channels i {
 	display: inline-block;
 	width: auto;
-	height: 20px;
-	margin: 20px;
+	padding: 20px;
 }
 
 .main h1 {
