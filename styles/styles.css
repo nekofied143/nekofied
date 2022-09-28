@@ -61,16 +61,6 @@ a:hover {
 	cursor: default;
 }
 
-.footer-channels {
-	text-align: center;
-}
-
-.footer-channels i {
-	display: inline-block;
-	width: auto;
-	padding: 20px;
-}
-
 .main h1 {
 	text-align: center;
 	padding: 10px;
@@ -106,6 +96,22 @@ a:hover {
 	overflow: hidden;
 	background-color: #ddd;
 	padding: 30px;
+}
+
+.footer-channels {
+	text-align: center;
+	background-color: dimgray;
+}
+
+.footer-channels i {
+	display: inline-block;
+	width: auto;
+	padding: 20px;
+	text-shadow: 2px 3px 1px rgba(138, 138, 138, 0.5);
+}
+
+.footer-channels i:hover {
+	transform: translateY(-5px);
 }
 
 * {
